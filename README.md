@@ -53,6 +53,8 @@ Dropping columns:
 
 ![drop](https://github.com/epsilonite/Crowdfunding_ETL/blob/main/images/campaign_drop.png)
 
+---
+
 ## Create the Contacts DataFrame
 
 Imported the contacts.xlsx file into a DataFrame
@@ -68,5 +70,23 @@ The following image shows the contacts DataFrame:
 
 ![contacts](https://github.com/epsilonite/Crowdfunding_ETL/blob/main/images/contacts.png)
 
+---
+
 ## Create the Crowdfunding Database
+
+Sketched an ERD of the four tables
+Used the information from the ERD to create a table schema for each CSV file
+Saved the database schema as a Postgres file named crowdfunding_db_schema.sql
+Created a new Postgres database named crowdfunding_db
+Using the database schema, created the tables in the correct order to handle the foreign keys
+Imported each CSV file into its corresponding SQL table
+Verified that each table had the correct data by running a SELECT statement for each
+
+ERD Diagram:
+
+![erd](https://github.com/epsilonite/Crowdfunding_ETL/blob/main/images/crowdfunding_db_ERD.png)
+
+---
+
+## Resources
 
