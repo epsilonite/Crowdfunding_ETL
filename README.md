@@ -7,7 +7,7 @@
 ## Create the Category and Subcategory DataFrames
 
 ### Category 
-
+---
 Extracted and transformed the crowdfunding.xlsx Excel data to create a category DataFrame that has the following columns:
   - A "category_id" column that has entries going sequentially from "cat1" to "catn", where n is the number of unique categories
   - A "category" column that contains only the category titles
@@ -19,7 +19,7 @@ The following image shows this category DataFrame:
   - Exported the category DataFrame as category.csv
 
 ### Subcategory
-
+---
 Extracted and transformed the crowdfunding.xlsx Excel data to create a subcategory DataFrame that has the following columns:
   - A "subcategory_id" column that has entries going sequentially from "subcat1" to "subcatn", where n is the number of unique subcategories
   - A "subcategory" column that contains only the subcategory titles
