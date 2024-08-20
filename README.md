@@ -58,7 +58,9 @@ Dropping columns:
 ## Create the Contacts DataFrame
 
 Imported the contacts.xlsx file into a DataFrame
+
 Iterated through the DataFrame, converting each row to a dictionary
+
 Iterated through each dictionary, doing the following:
   - Extracted the dictionary values from the keys by using a Python list comprehension
   - Added the values for each row to a new list
@@ -97,3 +99,5 @@ ERD Diagram:
 
 ## Resources
 
+QuickDBD: Quick Database Diagrams<br>
+http://www.quickdatabasediagrams.com/
