@@ -1,6 +1,6 @@
 # Crowdfunding_ETL
 
-![crowdfunding](https://github.com/epsilonite/Crowdfunding_ETL/tree/main/images#:~:text=6%20minutes%20ago-,crowdfunding.webp)
+![crowdfunding](https://github.com/epsilonite/Crowdfunding_ETL/blob/main/images/crowdfunding.webp)
 
 ---
 
