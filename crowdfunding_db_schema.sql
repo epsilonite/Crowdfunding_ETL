@@ -1,14 +1,10 @@
 --- Crowdfunding DB ---
 
-
-
 --- DROP TABLES
 DROP TABLE IF EXISTS contacts ;
 DROP TABLE IF EXISTS category ;
 DROP TABLE IF EXISTS subcategory ;
 DROP TABLE IF EXISTS campaign ;
-
-
 
 --- CREATE TABLES 
 CREATE TABLE contacts (
@@ -17,17 +13,14 @@ CREATE TABLE contacts (
 	last_name VARCHAR (13) NOT NULL,
 	email VARCHAR (42) NOT NULL
 );
-
 CREATE TABLE category (
 	category_id VARCHAR (4) PRIMARY KEY,
-	category VARCHAR (12) NOT NULL
+	category VARCHAR (12) UNIQUE NOT NULL
 );
-
 CREATE TABLE subcategory (
 	subcategory_id VARCHAR (8) PRIMARY KEY,
-	subcategory VARCHAR (17) NOT NULL
+	subcategory VARCHAR (17) UNIQUE NOT NULL
 );
-
 CREATE TABLE campaign (
 	cf_id INT PRIMARY KEY,
 	contact_id INT NOT NULL,
@@ -48,17 +41,8 @@ CREATE TABLE campaign (
 	FOREIGN KEY (subcategory_id) REFERENCES subcategory(subcategory_id)
 );
 
-
 --- CHECK TABLES 
-
-SELECT *
-FROM contacts ;
-
-SELECT *
-FROM category ;
-
-SELECT *
-FROM subcategory ;
-
-SELECT *
-FROM campaign ;
+SELECT * FROM contacts ;
+SELECT * FROM category ;
+SELECT * FROM subcategory ;
+SELECT * FROM campaign ;
