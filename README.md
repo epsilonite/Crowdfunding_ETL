@@ -16,18 +16,20 @@ The following image shows this category DataFrame:
 
   - Exported the category DataFrame as category.csv
 
+---
 
-Extract and transform the crowdfunding.xlsx Excel data to create a subcategory DataFrame that has the following columns:
-
-A "subcategory_id" column that has entries going sequentially from "subcat1" to "subcatn", where n is the number of unique subcategories
-
-A "subcategory" column that contains only the subcategory titles
+Extracted and transformed the crowdfunding.xlsx Excel data to create a subcategory DataFrame that has the following columns:
+  - A "subcategory_id" column that has entries going sequentially from "subcat1" to "subcatn", where n is the number of unique subcategories
+  - A "subcategory" column that contains only the subcategory titles
 
 The following image shows this subcategory DataFrame:
 
-subcategory DataFrame
+![subcategory](https://github.com/epsilonite/Crowdfunding_ETL/blob/main/images/subcatgeory.png)
 
-Export the subcategory DataFrame as subcategory.csv and save it to your GitHub repository.
+  - Exported the subcategory DataFrame as subcategory.csv
+
+---
+
 ## Create the Campaign DataFrame
 ## Create the Contacts DataFrame
 ## Create the Crowdfunding Database
