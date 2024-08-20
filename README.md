@@ -76,18 +76,12 @@ The following image shows the contacts DataFrame:
 
 ## Create the Crowdfunding Database
 
-Sketched an ERD of the four tables
-
-Used the information from the ERD to create a table schema for each CSV file
-
-Saved the database schema as a Postgres file named crowdfunding_db_schema.sql
-
-Created a new Postgres database named crowdfunding_db
-
-Using the database schema, created the tables in the correct order to handle the foreign keys
-
-Imported each CSV file into its corresponding SQL table
-
+Sketched an ERD of the four tables<br>
+Used the information from the ERD to create a table schema for each CSV file<br>
+Saved the database schema as a Postgres file named crowdfunding_db_schema.sql<br>
+Created a new Postgres database named crowdfunding_db<br>
+Using the database schema, created the tables in the correct order to handle the foreign keys<br>
+Imported each CSV file into its corresponding SQL table<br>
 Verified that each table had the correct data by running a SELECT statement for each
 
 
