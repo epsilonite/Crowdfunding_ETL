@@ -6,13 +6,13 @@
 
 ## Databases
 
-[Category and Subcategory](https://github.com/epsilonite/Crowdfunding_ETL/tree/main#create-the-category-and-subcategory-dataframes)
+[Category and Subcategory](#create-the-category-and-subcategory-dataframes)
 
-[Campaign](https://github.com/epsilonite/Crowdfunding_ETL/tree/main?tab=readme-ov-file#create-the-campaign-dataframe)
+[Campaign](#create-the-campaign-dataframe)
 
-[Contacts](https://github.com/epsilonite/Crowdfunding_ETL/tree/main?tab=readme-ov-file#create-the-contacts-dataframe)
+[Contacts](#create-the-contacts-dataframe)
 
-[Crowdfunding](https://github.com/epsilonite/Crowdfunding_ETL/tree/main?tab=readme-ov-file#create-the-crowdfunding-database)
+[Crowdfunding](#create-the-crowdfunding-database)
 
 ---
 
@@ -98,6 +98,8 @@ Verified that each table had the correct data by running a SELECT statement for 
 ERD Diagram:
 
 ![erd](https://github.com/epsilonite/Crowdfunding_ETL/blob/main/images/crowdfunding_db_ERD.png)
+
+[SQL Schema](https://github.com/epsilonite/Crowdfunding_ETL/blob/main/crowdfunding_db_schema.sql)
 
 ---
 
